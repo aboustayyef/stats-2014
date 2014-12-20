@@ -1,0 +1,71 @@
+$lbcolor: #b12530;
+$blue:#2EA9D3;
+// Typography
+
+body.fontLoaded{
+	h1,h2,h3,h4,h5,h6, .listSquare{
+		font-family:'Montserrat';
+	}
+}
+
+a{
+	color:$lbcolor;
+	&:hover{
+		color:$lbcolor;
+	}
+}
+
+// Header
+
+#lb_header{
+	overflow:auto;
+	padding-top:10px;
+	padding-bottom:10px;
+	background:$lbcolor;
+	color:white;
+	img{
+		float:left;
+	}
+}
+
+// illustration
+
+.illustration{
+	margin-top:20px;
+	svg{
+		margin-right:10px;
+	}
+}
+
+// Sidebar
+
+.sidebar{
+	margin-top:30px;
+	li{
+		a{
+			color:#969696;
+		}
+		&.active{
+			background:$blue;
+			a{
+				color:white;
+			}
+		}
+	}
+}
+
+// Result Squares
+.listSquare{
+	width: 200px;
+	height: 200px;
+	background: #2EA9D3;
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	h3{
+		color:white;
+	}
+	&:hover{
+		background:$lbcolor;
+	}
+}

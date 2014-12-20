@@ -1,0 +1,42 @@
+body.fontLoaded h1, body.fontLoaded h2, body.fontLoaded h3, body.fontLoaded h4, body.fontLoaded h5, body.fontLoaded h6, body.fontLoaded .listSquare {
+  font-family: 'Montserrat'; }
+
+a {
+  color: #b12530; }
+  a:hover {
+    color: #b12530; }
+
+#lb_header {
+  overflow: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #b12530;
+  color: white; }
+  #lb_header img {
+    float: left; }
+
+.illustration {
+  margin-top: 20px; }
+  .illustration svg {
+    margin-right: 10px; }
+
+.sidebar {
+  margin-top: 30px; }
+  .sidebar li a {
+    color: #969696; }
+  .sidebar li.active {
+    background: #2EA9D3; }
+    .sidebar li.active a {
+      color: white; }
+
+.listSquare {
+  width: 200px;
+  height: 200px;
+  background: #2EA9D3;
+  float: left;
+  margin: 10px;
+  padding: 10px; }
+  .listSquare h3 {
+    color: white; }
+  .listSquare:hover {
+    background: #b12530; }
