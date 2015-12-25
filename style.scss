@@ -1,5 +1,5 @@
 $lbcolor: #b12530;
-$blue:#2EA9D3;
+$mainColor:#88C4AB;
 // Typography
 
 body.fontLoaded{
@@ -31,7 +31,7 @@ a{
 // illustration
 
 .illustration{
-	margin-top:20px;
+	margin-top:30px;
 	svg{
 		margin-right:10px;
 	}
@@ -46,7 +46,7 @@ a{
 			color:#969696;
 		}
 		&.active{
-			background:$blue;
+			background:$mainColor;
 			a{
 				color:white;
 			}
@@ -58,7 +58,7 @@ a{
 .listSquare{
 	width: 200px;
 	height: 200px;
-	background: #2EA9D3;
+	background: $mainColor;
 	float: left;
 	margin: 10px;
 	padding: 10px;

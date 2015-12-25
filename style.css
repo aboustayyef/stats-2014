@@ -16,7 +16,7 @@ a {
     float: left; }
 
 .illustration {
-  margin-top: 20px; }
+  margin-top: 30px; }
   .illustration svg {
     margin-right: 10px; }
 
@@ -25,14 +25,14 @@ a {
   .sidebar li a {
     color: #969696; }
   .sidebar li.active {
-    background: #2EA9D3; }
+    background: #88C4AB; }
     .sidebar li.active a {
       color: white; }
 
 .listSquare {
   width: 200px;
   height: 200px;
-  background: #2EA9D3;
+  background: #88C4AB;
   float: left;
   margin: 10px;
   padding: 10px; }
